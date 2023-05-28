@@ -82,7 +82,7 @@ void sendEmailWithAttachments(const string& recipient, const string& subject, co
     {
         long responseCode;
         curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &responseCode);
-        if (responseCode == 200)
+        if (responseCode == 250)
         {
             cout << "Email sent successfully." << endl;
         }
