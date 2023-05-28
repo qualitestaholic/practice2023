@@ -23,9 +23,9 @@ void sendEmailWithAttachments(const string& recipient, const string& subject, co
         return;
     }
 
-    string smtpServer = "smtp.gmail.com"; // Укажите адрес SMTP-сервера в соответствии с вашими настройками.
-    string senderEmail = "gdsher42@gmail.com"; // Укажите вашу электронную почту
-    string senderPassword = "uiucihblmigureno"; // Укажите ваш пароль
+    string smtpServer = "smtp.gmail.com"; 
+    string senderEmail = "gdsher42@gmail.com";
+    string senderPassword = "uiucihblmigureno";
     string recipientEmail = recipient;
     string emailSubject = subject;
     string emailBody = body;
@@ -101,7 +101,7 @@ int main()
 {
     string recipient = "skk-kks11@mail.ru";
     string subject = "Results of calculations";
-    string body = "прикрепленные файлы";
+    string body = "РїСЂРёРєСЂРµРїР»РµРЅРЅС‹Рµ С„Р°Р№Р»С‹";
 
     string folderPath = R"(C:\Users\ReachetatiVe\Downloads\test1)";
 
